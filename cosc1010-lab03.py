@@ -1,15 +1,12 @@
 # Braeden Kirby
 # UWYO COSC 1010
-# 09/27/24
+# 09/26/24
 # Lab 03 
 # Lab Section: 13
 # Sources, people worked with, help given to: Rylan Galloway
 
-
-
 # This is your second lab section. It will primarily be based on the Introducing Lists lecture, reference it if you need
 # Complete all sections of this assignment 
-
 
 print("Part One------------------------------------------------------------------------")
 #We are going to start with the basics. Declare a list  states that contains the elements: Wyoming, Colorado, Montana in that order 
@@ -32,7 +29,6 @@ print(mountain_states[-1])
 #Using an F-string to access the first and second element print the string "COLORADO is south of WYOMING", matching the casing provided
 
 print(f'{mountain_states[1].upper()} is south of {mountain_states[0].upper()}')
-
 
 print("Part Two------------------------------------------------------------------------")
 #Append the following states to your list: Washington, Oregon, California and print your list
@@ -86,6 +82,6 @@ print(mountain_states)
 
 #Using the reverse method reverse the list and print it
 
-mountain_states.sort()
+mountain_states.sort(reverse = False)
 
 print(mountain_states)
