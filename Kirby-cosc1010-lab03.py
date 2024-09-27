@@ -3,7 +3,7 @@
 # 09/26/24
 # Lab 03 
 # Lab Section: 13
-# Sources, people worked with, help given to: Rylan Galloway
+# Sources, people worked with, help given to: Rylan Galloway, Matthew Curl, Isaiah Timbers
 
 # This is your second lab section. It will primarily be based on the Introducing Lists lecture, reference it if you need
 # Complete all sections of this assignment 
@@ -70,7 +70,7 @@ print("Part Three---------------------------------------------------------------
 
 print(mountain_states)
 
-mountain_states.sort()
+print(sorted(mountain_states))
 
 print(mountain_states)
 
